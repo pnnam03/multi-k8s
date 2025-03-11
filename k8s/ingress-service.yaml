@@ -17,7 +17,7 @@ spec:
         paths:
           - path: /?(.*)
             # UPDATE PATH
-            pathType:
+            pathType: ImplementationSpecific
             # ADD PATHTYPE
             backend:
               service:
