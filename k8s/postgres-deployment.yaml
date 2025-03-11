@@ -27,10 +27,6 @@ spec:
                 secretKeyRef:
                   key: PGPASSWORD
                   name: pgpassword
-          resources:
-            limits:
-              cpu: "500m"
-              memory: "512Mi"
       volumes:
         - name: postgres-storage
           persistentVolumeClaim:
